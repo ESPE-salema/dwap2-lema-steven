@@ -444,7 +444,7 @@ button:hover{
 
 }
 
-@media (max-width: 500px){
+@media (max-width: 400px){
   .content-footer p{
     font-size: 0.8em;
   }
