@@ -408,14 +408,20 @@ button:hover{
     text-align: justify;
   }
 
+  #about-image{
+    height: 10em;
+  }
+
   #about-information{
     width: 18em;
     text-align: center;
+    margin: 1em 0;
   }
 
   #products-information{
     width: 18em;
     text-align: center;
+    margin: 1em 0;
   }
 
   #products-image{
@@ -424,7 +430,8 @@ button:hover{
   }
 
   .content-contacts{
-    padding: 1em;
+    width: 20em;
+    padding: 0.3em;
   }
 
   #contacts-information{
@@ -435,5 +442,11 @@ button:hover{
     font-size: 0.9em;
   }
 
+}
+
+@media (max-width: 500px){
+  .content-footer p{
+    font-size: 0.8em;
+  }
 }
 /*END MEDIA QUERI*/
