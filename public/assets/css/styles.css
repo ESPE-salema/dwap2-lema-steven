@@ -1,0 +1,439 @@
+/*STYLE BODY*/
+body{
+    background: center no-repeat fixed rgb(122, 122, 122)
+      url("https://miro.medium.com/max/3840/1*56TJ-CxFzulq7BnAupsd_g.jpeg");
+    background-size: cover;
+      margin: 0 auto;
+}
+/*END STYLE BODY*/
+
+/*STYLE HEADER*/
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.banner{
+  text-align: center;
+  width: 30em;
+}
+
+/*OTHER STYLES*/
+h1{
+  color: white;
+  margin: 0;
+}
+
+h2{
+  margin: 0;
+  font-family: 'Audiowide', cursive;
+  text-align: left;
+}
+
+h3{
+  color: #ffa260;
+  margin: 0 auto;
+  text-align: left;
+}
+
+p{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+/*END OTHER STYLES*/
+
+/*FONTS STYLE BANNER*/
+.banner div h3:nth-of-type(1){
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+.banner div h3:nth-of-type(2){
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2em;
+  text-align: center;
+}
+
+.banner div h3:nth-of-type(3){
+  font-family: 'Stick', sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.banner div h3:nth-of-type(4){
+  font-family: 'Ballet', cursive;
+  font-size: 3em;
+  text-align: center;
+}
+
+.banner div h1{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.6em;
+  text-align: center;
+}
+
+/*END FONTS STYLE BANNER*/
+
+/*BUTTON STYLE*/
+button{
+  background: #ffa260;
+  background-clip: padding-box;
+  color: #4e4e4e;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+  border: 7px double #ffa260;
+  padding: 0.6em 2em;
+  font-size: 0.8em;
+  margin: 1em 0;
+  transition: color 0.25s, border-color 0.25s; 
+}
+
+button:hover{
+  border-color:  #ffa260b6;
+  background: #ffa260b6;
+  background-clip: padding-box;
+  color: white;
+  cursor: pointer;
+}
+/*END BUTTON STYLE*/
+/*END STYLE HEADER*/
+
+/*CONTENT-DIVIDER STYLE*/
+.content-divider{
+  text-align:center;
+  border-top: 0.25em solid;
+  border-image: linear-gradient(to right, #ffa260 0%, #ffb987 25%,#ffd4b5 50%, #ffb987 75%, #ffa260 100%) 5;
+}
+/*END CONTENT-DIVIDER STYLE*/
+
+/*ABOUT STYLE*/
+.about{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-about{
+  padding: 2.5em 0;
+  display: flex;
+  text-align: justify;
+  align-items: center;
+}
+
+#content-image{
+  overflow: hidden;
+  border: 0.5em solid #ffa260;
+  background-color: #ffa260;
+  border-radius: 1em;
+}
+
+#about-image{
+  display: block;
+  height: 12em;
+  transition: transform 1s;
+}
+
+#about-image:hover{
+  transform: scale(1.3);
+	z-index: 100;
+  opacity: 60%;
+}
+
+#about-information{
+  margin: 1em 2em;
+  width: 30em;
+}
+
+#about-information h3{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.5em;
+}
+
+/*END ABOUT STYLE*/
+
+/*PRODUCTS STYLE*/
+.products{
+  background-color: #4e4e4e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-products{
+    padding: 2.5em 0;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    color: white;
+}
+
+#products-information{
+    margin: 1em 2em;
+    width: 20em;
+}
+
+#products-information h3{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.5em;
+}
+
+#products-services{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#div-services{
+  padding: 0 0 0 1em;
+}
+
+#div-services h2{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1em;
+}
+
+#div-services h3{
+  font-family: 'Stick', sans-serif;
+  font-size: 0.8em;
+}
+
+#products-image{
+  object-fit: cover;
+  border: 0.15em solid #ffa260;
+  border-radius: 0.5em;
+  height: 15em;
+}
+/*END PRODUCTS STYLE*/
+
+/*CONTACTS STYLE*/
+.contacts{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+}
+
+.content-contacts{
+  padding: 2.5em 2.5em;
+  display: flex;
+  text-align: justify;
+  align-items: center;
+}
+
+#contacts-information{
+  margin: 0 3em;
+  width: 30em;
+}
+
+#contacts-information h3{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1em;
+}
+
+.content-contacts>div>p{
+  margin: 1em 0;
+}
+
+/*END CONTACTS STYLE*/
+
+/*FOOTER STYLE*/
+.footer{
+  background-color: #4e4e4e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-footer{
+  padding: 1em 0;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.content-footer p:nth-of-type(1){
+  color: white;
+  font-family: Arial;
+}
+
+.content-footer p:nth-of-type(2){
+  color :#ffa260;
+}
+
+.content-footer p:nth-of-type(3){
+  color :white
+}
+/*END FOOTER STYLE*/
+
+/*MEDIA QUERI*/
+@media (max-width: 1412px){
+  #products-image{
+    height: 10em;
+  }
+
+}
+
+@media (max-width: 1128px){
+  #products-image{
+    height: 8em;
+  }
+  
+}
+
+@media (max-width: 980px){
+  
+  #about-information{
+    width: 25em;
+  }
+  
+  .content-products{
+    flex-direction: column;
+  }
+
+  #products-information{
+    width: 50em;
+  }
+
+  #products-image{
+    height: 13em;
+  }
+  
+}
+
+@media (max-width: 886px){
+
+  #about-information{
+    width: 25em;
+  }
+
+  #products-information{
+    width: 40em;
+  }
+
+
+  #products-image{
+    height: 10em;
+  }
+  
+}
+
+@media (max-width: 830px){
+
+  .content-about{
+    flex-direction: column;
+  }
+  
+  .content-about>img{
+    height: 10em;
+  }
+
+  #about-information{
+    width: 35em;
+  }
+
+  #products-information{
+    width: 35em;
+  }
+
+  #products-image{
+    height: 10em;
+  }
+ 
+  
+}
+
+@media (max-width: 700px){
+
+  h2, h3{
+    text-align: center;
+  }
+  
+  #products-services{
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #div-services{
+    padding: 1em 0 0 0;
+    text-align: center;
+  }
+
+
+  #products-image{
+    width: 20em;
+    height: 30em;
+  }
+
+  .content-contacts>div>h3{
+    text-align: justify;
+  }
+
+  #contacts-information{
+    width: 18em;
+  }
+
+}
+
+@media (max-width: 650px){
+
+  #about-information{
+    width: 25em;
+  }
+
+  #products-information{
+    width: 25em;
+  }
+  
+}
+
+@media (max-width: 500px){
+
+  .banner{
+    width: 18em;
+  }
+
+  p{
+    text-align: justify;
+  }
+
+  #about-information{
+    width: 18em;
+    text-align: center;
+  }
+
+  #products-information{
+    width: 18em;
+    text-align: center;
+  }
+
+  #products-image{
+    height: 15em;
+    width: 20em;
+  }
+
+  .content-contacts{
+    padding: 1em;
+  }
+
+  #contacts-information{
+    width: 15em;
+  }
+
+  .content-footer p{
+    font-size: 0.9em;
+  }
+
+}
+/*END MEDIA QUERI*/

@@ -1,0 +1,17 @@
+[
+    {
+      "nombre": "RETRATO",
+      "precio": "$2.99",
+      "imagen": "http://www.bambooaudiovisual.com/wp-content/uploads/2019/12/Fotograf%C3%ADa-de-retrato-Qu%C3%A9-equipos-usamos-los-profesionales.jpg"
+    },
+    {
+      "nombre": "FOTOGRAFÍA",
+      "precio": "$5.99",
+      "imagen": "https://cdn-7.nikon-cdn.com/Images/Learn-Explore/Photography-Techniques/2019/CA-Chris-Ogonek-Picture-Controls/Media/Chris-Ogonek-Picture-Controls-Portrait.jpg"
+    },
+    {
+      "nombre": "ILUSTRACIÓN",
+      "precio": "$9.99",
+      "imagen": "https://i.ytimg.com/vi/e0pYl7CbgXI/maxresdefault.jpg"
+    }
+]

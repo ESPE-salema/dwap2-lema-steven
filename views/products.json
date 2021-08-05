@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+            "nombre": "Retrato",
+            "precio": "$2.99",
+            "imagen" : ""
+        },
+        {
+            "nombre": "Fotografía",
+            "precio": "$5.99",
+            "imagen" : ""
+        },
+        {
+            "nombre": "Ilustracón",
+            "precio": "$.99",
+            "imagen" : ""
+        }
+    ]
+}
